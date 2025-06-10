@@ -1,0 +1,69 @@
+body {
+    background-color: #1e1e2f;
+    font-family: 'Segoe UI', sans-serif;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: #2a2f45 !important;
+    border: none;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+h2 {
+    color: #00bcd4;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    background-color: #3c3f5a !important;
+    color: white !important;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+input[type="file"]::file-selector-button {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background-color: #0097a7;
+}
+
+.btn-info {
+    background-color: #00bcd4;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-info:hover {
+    background-color: #0097a7;
+}
+
+.alert {
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.alert-success {
+    background-color: #4caf50;
+    color: white;
+}
+
+.alert-danger {
+    background-color: #f44336;
+    color: white;
+}
