@@ -19,8 +19,6 @@ Bu depo, **AES-256 şifreleme**, **parça-tabanlı aktarım**, **isteğe bağlı
 | `server/server.py` | Temel alıcı |
 | `server/server_chunk.py` | Parça-birleştiren alıcı |
 | `server/server_ack.py` | ACK destekli alıcı |
-| `server/crypto.py` | AES-256-CBC/GCM ve PBKDF2 yardımcıları |
-| `server/network.py` | IP ID/TTL rastgeleleştirme, pcap kayıt |
 | **`run_flask.sh`** | Sunucuyu 0.0.0.0:5050’da ayağa kaldırır |
 | **`requirements.txt`** | pycryptodome, scapy, flask, vb. |
 
